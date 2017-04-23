@@ -1,0 +1,679 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C0658C1EA391680028F578 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C0658B1EA391680028F578 /* main.m */; };
+		23C0658F1EA391690028F578 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C0658E1EA391690028F578 /* AppDelegate.m */; };
+		23C065951EA391690028F578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C065931EA391690028F578 /* Main.storyboard */; };
+		23C065971EA391690028F578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C065961EA391690028F578 /* Assets.xcassets */; };
+		23C0659A1EA391690028F578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C065981EA391690028F578 /* LaunchScreen.storyboard */; };
+		23C065A51EA3916B0028F578 /* goldIdeaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065A41EA3916B0028F578 /* goldIdeaTests.m */; };
+		23C065B01EA3916B0028F578 /* goldIdeaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065AF1EA3916B0028F578 /* goldIdeaUITests.m */; };
+		23C065BE1EA392000028F578 /* Empty.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C065BD1EA392000028F578 /* Empty.xib */; };
+		23C065C81EA3932F0028F578 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065C61EA3932F0028F578 /* MainPageViewController.m */; };
+		23C065C91EA3932F0028F578 /* MainPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C065C71EA3932F0028F578 /* MainPageViewController.xib */; };
+		23C065CD1EA3967E0028F578 /* IdeaCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065CB1EA3967E0028F578 /* IdeaCollectionViewController.m */; };
+		23C065D21EA396900028F578 /* IdeaDepartmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065D01EA396900028F578 /* IdeaDepartmentViewController.m */; };
+		23C065D71EA396A30028F578 /* MyIdeaCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065D51EA396A30028F578 /* MyIdeaCollectionViewController.m */; };
+		23C065DC1EA396B00028F578 /* PostIdeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065DA1EA396B00028F578 /* PostIdeaViewController.m */; };
+		23C065DD1EA396B00028F578 /* PostIdeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C065DB1EA396B00028F578 /* PostIdeaViewController.xib */; };
+		23C065E11EA39BDC0028F578 /* ReviewMyIdeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065DF1EA39BDC0028F578 /* ReviewMyIdeaViewController.m */; };
+		23C065E21EA39BDC0028F578 /* ReviewMyIdeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C065E01EA39BDC0028F578 /* ReviewMyIdeaViewController.xib */; };
+		23C065E61EA3A1820028F578 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065E41EA3A1820028F578 /* LoginViewController.m */; };
+		23C065E71EA3A1820028F578 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C065E51EA3A1820028F578 /* LoginViewController.xib */; };
+		23C065EB1EA3A18D0028F578 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065E91EA3A18D0028F578 /* RegisterViewController.m */; };
+		23C065EC1EA3A18D0028F578 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C065EA1EA3A18D0028F578 /* RegisterViewController.xib */; };
+		23C065F11EA3A7190028F578 /* BoolIdeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065EF1EA3A7190028F578 /* BoolIdeaViewController.m */; };
+		23C065F21EA3A7190028F578 /* BoolIdeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C065F01EA3A7190028F578 /* BoolIdeaViewController.xib */; };
+		23C065F61EA3AA270028F578 /* SecondBoolIdeaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C065F41EA3AA270028F578 /* SecondBoolIdeaViewController.m */; };
+		23C065F71EA3AA270028F578 /* SecondBoolIdeaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23C065F51EA3AA270028F578 /* SecondBoolIdeaViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23C065A11EA3916B0028F578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C0657F1EA391670028F578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C065861EA391680028F578;
+			remoteInfo = goldIdea;
+		};
+		23C065AC1EA3916B0028F578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23C0657F1EA391670028F578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23C065861EA391680028F578;
+			remoteInfo = goldIdea;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C065871EA391680028F578 /* goldIdea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goldIdea.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C0658B1EA391680028F578 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23C0658D1EA391690028F578 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		23C0658E1EA391690028F578 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		23C065941EA391690028F578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23C065961EA391690028F578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23C065991EA391690028F578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23C0659B1EA391690028F578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C065A01EA3916B0028F578 /* goldIdeaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goldIdeaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C065A41EA3916B0028F578 /* goldIdeaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goldIdeaTests.m; sourceTree = "<group>"; };
+		23C065A61EA3916B0028F578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C065AB1EA3916B0028F578 /* goldIdeaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goldIdeaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23C065AF1EA3916B0028F578 /* goldIdeaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goldIdeaUITests.m; sourceTree = "<group>"; };
+		23C065B11EA3916B0028F578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23C065BD1EA392000028F578 /* Empty.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Empty.xib; sourceTree = "<group>"; };
+		23C065C51EA3932F0028F578 /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		23C065C61EA3932F0028F578 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
+		23C065C71EA3932F0028F578 /* MainPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPageViewController.xib; sourceTree = "<group>"; };
+		23C065CA1EA3967E0028F578 /* IdeaCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaCollectionViewController.h; sourceTree = "<group>"; };
+		23C065CB1EA3967E0028F578 /* IdeaCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaCollectionViewController.m; sourceTree = "<group>"; };
+		23C065CF1EA396900028F578 /* IdeaDepartmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeaDepartmentViewController.h; sourceTree = "<group>"; };
+		23C065D01EA396900028F578 /* IdeaDepartmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeaDepartmentViewController.m; sourceTree = "<group>"; };
+		23C065D41EA396A30028F578 /* MyIdeaCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyIdeaCollectionViewController.h; sourceTree = "<group>"; };
+		23C065D51EA396A30028F578 /* MyIdeaCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyIdeaCollectionViewController.m; sourceTree = "<group>"; };
+		23C065D91EA396B00028F578 /* PostIdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostIdeaViewController.h; sourceTree = "<group>"; };
+		23C065DA1EA396B00028F578 /* PostIdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostIdeaViewController.m; sourceTree = "<group>"; };
+		23C065DB1EA396B00028F578 /* PostIdeaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostIdeaViewController.xib; sourceTree = "<group>"; };
+		23C065DE1EA39BDC0028F578 /* ReviewMyIdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewMyIdeaViewController.h; sourceTree = "<group>"; };
+		23C065DF1EA39BDC0028F578 /* ReviewMyIdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewMyIdeaViewController.m; sourceTree = "<group>"; };
+		23C065E01EA39BDC0028F578 /* ReviewMyIdeaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReviewMyIdeaViewController.xib; sourceTree = "<group>"; };
+		23C065E31EA3A1820028F578 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		23C065E41EA3A1820028F578 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		23C065E51EA3A1820028F578 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		23C065E81EA3A18D0028F578 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		23C065E91EA3A18D0028F578 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		23C065EA1EA3A18D0028F578 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		23C065EE1EA3A7190028F578 /* BoolIdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoolIdeaViewController.h; sourceTree = "<group>"; };
+		23C065EF1EA3A7190028F578 /* BoolIdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoolIdeaViewController.m; sourceTree = "<group>"; };
+		23C065F01EA3A7190028F578 /* BoolIdeaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoolIdeaViewController.xib; sourceTree = "<group>"; };
+		23C065F31EA3AA270028F578 /* SecondBoolIdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondBoolIdeaViewController.h; sourceTree = "<group>"; };
+		23C065F41EA3AA270028F578 /* SecondBoolIdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondBoolIdeaViewController.m; sourceTree = "<group>"; };
+		23C065F51EA3AA270028F578 /* SecondBoolIdeaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondBoolIdeaViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23C065841EA391680028F578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C0659D1EA3916B0028F578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C065A81EA3916B0028F578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23C0657E1EA391670028F578 = {
+			isa = PBXGroup;
+			children = (
+				23C065891EA391680028F578 /* goldIdea */,
+				23C065A31EA3916B0028F578 /* goldIdeaTests */,
+				23C065AE1EA3916B0028F578 /* goldIdeaUITests */,
+				23C065881EA391680028F578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23C065881EA391680028F578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23C065871EA391680028F578 /* goldIdea.app */,
+				23C065A01EA3916B0028F578 /* goldIdeaTests.xctest */,
+				23C065AB1EA3916B0028F578 /* goldIdeaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23C065891EA391680028F578 /* goldIdea */ = {
+			isa = PBXGroup;
+			children = (
+				23C065BF1EA392E90028F578 /* Classes */,
+				23C0658D1EA391690028F578 /* AppDelegate.h */,
+				23C0658E1EA391690028F578 /* AppDelegate.m */,
+				23C065BD1EA392000028F578 /* Empty.xib */,
+				23C065931EA391690028F578 /* Main.storyboard */,
+				23C065961EA391690028F578 /* Assets.xcassets */,
+				23C065981EA391690028F578 /* LaunchScreen.storyboard */,
+				23C0659B1EA391690028F578 /* Info.plist */,
+				23C0658A1EA391680028F578 /* Supporting Files */,
+			);
+			path = goldIdea;
+			sourceTree = "<group>";
+		};
+		23C0658A1EA391680028F578 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23C0658B1EA391680028F578 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23C065A31EA3916B0028F578 /* goldIdeaTests */ = {
+			isa = PBXGroup;
+			children = (
+				23C065A41EA3916B0028F578 /* goldIdeaTests.m */,
+				23C065A61EA3916B0028F578 /* Info.plist */,
+			);
+			path = goldIdeaTests;
+			sourceTree = "<group>";
+		};
+		23C065AE1EA3916B0028F578 /* goldIdeaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23C065AF1EA3916B0028F578 /* goldIdeaUITests.m */,
+				23C065B11EA3916B0028F578 /* Info.plist */,
+			);
+			path = goldIdeaUITests;
+			sourceTree = "<group>";
+		};
+		23C065BF1EA392E90028F578 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				23C065C41EA393140028F578 /* LoginAndMain */,
+				23C065C01EA392E90028F578 /* IdeaCollections */,
+				23C065C11EA392E90028F578 /* IdeaDepartment */,
+				23C065C21EA392E90028F578 /* MyIdeas */,
+				23C065C31EA392E90028F578 /* PostIdea */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		23C065C01EA392E90028F578 /* IdeaCollections */ = {
+			isa = PBXGroup;
+			children = (
+				23C065CA1EA3967E0028F578 /* IdeaCollectionViewController.h */,
+				23C065CB1EA3967E0028F578 /* IdeaCollectionViewController.m */,
+				23C065F31EA3AA270028F578 /* SecondBoolIdeaViewController.h */,
+				23C065F41EA3AA270028F578 /* SecondBoolIdeaViewController.m */,
+				23C065F51EA3AA270028F578 /* SecondBoolIdeaViewController.xib */,
+			);
+			path = IdeaCollections;
+			sourceTree = "<group>";
+		};
+		23C065C11EA392E90028F578 /* IdeaDepartment */ = {
+			isa = PBXGroup;
+			children = (
+				23C065CF1EA396900028F578 /* IdeaDepartmentViewController.h */,
+				23C065D01EA396900028F578 /* IdeaDepartmentViewController.m */,
+				23C065EE1EA3A7190028F578 /* BoolIdeaViewController.h */,
+				23C065EF1EA3A7190028F578 /* BoolIdeaViewController.m */,
+				23C065F01EA3A7190028F578 /* BoolIdeaViewController.xib */,
+			);
+			path = IdeaDepartment;
+			sourceTree = "<group>";
+		};
+		23C065C21EA392E90028F578 /* MyIdeas */ = {
+			isa = PBXGroup;
+			children = (
+				23C065ED1EA3A2370028F578 /* MyIdeaCell */,
+				23C065D41EA396A30028F578 /* MyIdeaCollectionViewController.h */,
+				23C065D51EA396A30028F578 /* MyIdeaCollectionViewController.m */,
+				23C065DE1EA39BDC0028F578 /* ReviewMyIdeaViewController.h */,
+				23C065DF1EA39BDC0028F578 /* ReviewMyIdeaViewController.m */,
+				23C065E01EA39BDC0028F578 /* ReviewMyIdeaViewController.xib */,
+			);
+			path = MyIdeas;
+			sourceTree = "<group>";
+		};
+		23C065C31EA392E90028F578 /* PostIdea */ = {
+			isa = PBXGroup;
+			children = (
+				23C065D91EA396B00028F578 /* PostIdeaViewController.h */,
+				23C065DA1EA396B00028F578 /* PostIdeaViewController.m */,
+				23C065DB1EA396B00028F578 /* PostIdeaViewController.xib */,
+			);
+			path = PostIdea;
+			sourceTree = "<group>";
+		};
+		23C065C41EA393140028F578 /* LoginAndMain */ = {
+			isa = PBXGroup;
+			children = (
+				23C065C51EA3932F0028F578 /* MainPageViewController.h */,
+				23C065C61EA3932F0028F578 /* MainPageViewController.m */,
+				23C065C71EA3932F0028F578 /* MainPageViewController.xib */,
+				23C065E31EA3A1820028F578 /* LoginViewController.h */,
+				23C065E41EA3A1820028F578 /* LoginViewController.m */,
+				23C065E51EA3A1820028F578 /* LoginViewController.xib */,
+				23C065E81EA3A18D0028F578 /* RegisterViewController.h */,
+				23C065E91EA3A18D0028F578 /* RegisterViewController.m */,
+				23C065EA1EA3A18D0028F578 /* RegisterViewController.xib */,
+			);
+			path = LoginAndMain;
+			sourceTree = "<group>";
+		};
+		23C065ED1EA3A2370028F578 /* MyIdeaCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MyIdeaCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23C065861EA391680028F578 /* goldIdea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C065B41EA3916B0028F578 /* Build configuration list for PBXNativeTarget "goldIdea" */;
+			buildPhases = (
+				23C065831EA391680028F578 /* Sources */,
+				23C065841EA391680028F578 /* Frameworks */,
+				23C065851EA391680028F578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goldIdea;
+			productName = goldIdea;
+			productReference = 23C065871EA391680028F578 /* goldIdea.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23C0659F1EA3916B0028F578 /* goldIdeaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C065B71EA3916B0028F578 /* Build configuration list for PBXNativeTarget "goldIdeaTests" */;
+			buildPhases = (
+				23C0659C1EA3916B0028F578 /* Sources */,
+				23C0659D1EA3916B0028F578 /* Frameworks */,
+				23C0659E1EA3916B0028F578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C065A21EA3916B0028F578 /* PBXTargetDependency */,
+			);
+			name = goldIdeaTests;
+			productName = goldIdeaTests;
+			productReference = 23C065A01EA3916B0028F578 /* goldIdeaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23C065AA1EA3916B0028F578 /* goldIdeaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23C065BA1EA3916B0028F578 /* Build configuration list for PBXNativeTarget "goldIdeaUITests" */;
+			buildPhases = (
+				23C065A71EA3916B0028F578 /* Sources */,
+				23C065A81EA3916B0028F578 /* Frameworks */,
+				23C065A91EA3916B0028F578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23C065AD1EA3916B0028F578 /* PBXTargetDependency */,
+			);
+			name = goldIdeaUITests;
+			productName = goldIdeaUITests;
+			productReference = 23C065AB1EA3916B0028F578 /* goldIdeaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23C0657F1EA391670028F578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "邓江洲";
+				TargetAttributes = {
+					23C065861EA391680028F578 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WQNKHF5597;
+						ProvisioningStyle = Automatic;
+					};
+					23C0659F1EA3916B0028F578 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WQNKHF5597;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23C065861EA391680028F578;
+					};
+					23C065AA1EA3916B0028F578 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = WQNKHF5597;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 23C065861EA391680028F578;
+					};
+				};
+			};
+			buildConfigurationList = 23C065821EA391670028F578 /* Build configuration list for PBXProject "goldIdea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23C0657E1EA391670028F578;
+			productRefGroup = 23C065881EA391680028F578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23C065861EA391680028F578 /* goldIdea */,
+				23C0659F1EA3916B0028F578 /* goldIdeaTests */,
+				23C065AA1EA3916B0028F578 /* goldIdeaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23C065851EA391680028F578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C065EC1EA3A18D0028F578 /* RegisterViewController.xib in Resources */,
+				23C065E71EA3A1820028F578 /* LoginViewController.xib in Resources */,
+				23C0659A1EA391690028F578 /* LaunchScreen.storyboard in Resources */,
+				23C065E21EA39BDC0028F578 /* ReviewMyIdeaViewController.xib in Resources */,
+				23C065F71EA3AA270028F578 /* SecondBoolIdeaViewController.xib in Resources */,
+				23C065BE1EA392000028F578 /* Empty.xib in Resources */,
+				23C065F21EA3A7190028F578 /* BoolIdeaViewController.xib in Resources */,
+				23C065971EA391690028F578 /* Assets.xcassets in Resources */,
+				23C065951EA391690028F578 /* Main.storyboard in Resources */,
+				23C065DD1EA396B00028F578 /* PostIdeaViewController.xib in Resources */,
+				23C065C91EA3932F0028F578 /* MainPageViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C0659E1EA3916B0028F578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C065A91EA3916B0028F578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23C065831EA391680028F578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C0658F1EA391690028F578 /* AppDelegate.m in Sources */,
+				23C0658C1EA391680028F578 /* main.m in Sources */,
+				23C065E11EA39BDC0028F578 /* ReviewMyIdeaViewController.m in Sources */,
+				23C065D71EA396A30028F578 /* MyIdeaCollectionViewController.m in Sources */,
+				23C065C81EA3932F0028F578 /* MainPageViewController.m in Sources */,
+				23C065EB1EA3A18D0028F578 /* RegisterViewController.m in Sources */,
+				23C065E61EA3A1820028F578 /* LoginViewController.m in Sources */,
+				23C065F61EA3AA270028F578 /* SecondBoolIdeaViewController.m in Sources */,
+				23C065DC1EA396B00028F578 /* PostIdeaViewController.m in Sources */,
+				23C065D21EA396900028F578 /* IdeaDepartmentViewController.m in Sources */,
+				23C065CD1EA3967E0028F578 /* IdeaCollectionViewController.m in Sources */,
+				23C065F11EA3A7190028F578 /* BoolIdeaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C0659C1EA3916B0028F578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C065A51EA3916B0028F578 /* goldIdeaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23C065A71EA3916B0028F578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C065B01EA3916B0028F578 /* goldIdeaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23C065A21EA3916B0028F578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C065861EA391680028F578 /* goldIdea */;
+			targetProxy = 23C065A11EA3916B0028F578 /* PBXContainerItemProxy */;
+		};
+		23C065AD1EA3916B0028F578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23C065861EA391680028F578 /* goldIdea */;
+			targetProxy = 23C065AC1EA3916B0028F578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23C065931EA391690028F578 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C065941EA391690028F578 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23C065981EA391690028F578 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23C065991EA391690028F578 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23C065B21EA3916B0028F578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		23C065B31EA3916B0028F578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23C065B51EA3916B0028F578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQNKHF5597;
+				INFOPLIST_FILE = goldIdea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZheYiBu.goldIdea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		23C065B61EA3916B0028F578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQNKHF5597;
+				INFOPLIST_FILE = goldIdea/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZheYiBu.goldIdea;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		23C065B81EA3916B0028F578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQNKHF5597;
+				INFOPLIST_FILE = goldIdeaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZheYiBu.goldIdeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goldIdea.app/goldIdea";
+			};
+			name = Debug;
+		};
+		23C065B91EA3916B0028F578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = WQNKHF5597;
+				INFOPLIST_FILE = goldIdeaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZheYiBu.goldIdeaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/goldIdea.app/goldIdea";
+			};
+			name = Release;
+		};
+		23C065BB1EA3916B0028F578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQNKHF5597;
+				INFOPLIST_FILE = goldIdeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZheYiBu.goldIdeaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = goldIdea;
+			};
+			name = Debug;
+		};
+		23C065BC1EA3916B0028F578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = WQNKHF5597;
+				INFOPLIST_FILE = goldIdeaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZheYiBu.goldIdeaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = goldIdea;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23C065821EA391670028F578 /* Build configuration list for PBXProject "goldIdea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C065B21EA3916B0028F578 /* Debug */,
+				23C065B31EA3916B0028F578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23C065B41EA3916B0028F578 /* Build configuration list for PBXNativeTarget "goldIdea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C065B51EA3916B0028F578 /* Debug */,
+				23C065B61EA3916B0028F578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23C065B71EA3916B0028F578 /* Build configuration list for PBXNativeTarget "goldIdeaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C065B81EA3916B0028F578 /* Debug */,
+				23C065B91EA3916B0028F578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		23C065BA1EA3916B0028F578 /* Build configuration list for PBXNativeTarget "goldIdeaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23C065BB1EA3916B0028F578 /* Debug */,
+				23C065BC1EA3916B0028F578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23C0657F1EA391670028F578 /* Project object */;
+}
