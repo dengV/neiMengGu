@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WisdomViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wco-rZ-p2q">
+                    <rect key="frame" x="0.0" y="6" width="375" height="661"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="inh-cd-Hp0">
+                    <rect key="frame" x="107.5" y="311.5" width="160" height="50"/>
+                    <color key="backgroundColor" red="0.45107419110000002" green="0.32019890690000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="EUa-Ka-pbl"/>
+                        <constraint firstAttribute="width" constant="160" id="Hf8-B5-jbT"/>
+                    </constraints>
+                    <state key="normal" title="智能集通">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="gotoWisdomCollection:" destination="-1" eventType="touchUpInside" id="s7B-1D-3WB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USt-lY-K7x">
+                    <rect key="frame" x="107.5" y="381.5" width="160" height="50"/>
+                    <color key="backgroundColor" red="0.45107419110000002" green="0.32019890690000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="智慧集通">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="gotoGoldIdea:" destination="-1" eventType="touchUpInside" id="Xwm-HR-e3r"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoQ-CC-Wmy">
+                    <rect key="frame" x="107.5" y="451.5" width="160" height="50"/>
+                    <color key="backgroundColor" red="0.45107419110000002" green="0.32019890690000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="互动集通">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="gotoNeiMengInteraction:" destination="-1" eventType="touchUpInside" id="x9w-FH-z1N"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hoQ-CC-Wmy" firstAttribute="top" secondItem="USt-lY-K7x" secondAttribute="bottom" constant="20" id="9tk-V9-Zro"/>
+                <constraint firstItem="USt-lY-K7x" firstAttribute="centerX" secondItem="wco-rZ-p2q" secondAttribute="centerX" id="B9l-Hg-nYh"/>
+                <constraint firstItem="hoQ-CC-Wmy" firstAttribute="width" secondItem="USt-lY-K7x" secondAttribute="width" id="E6B-vE-b5h"/>
+                <constraint firstItem="wco-rZ-p2q" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="6" id="FPL-BL-USg"/>
+                <constraint firstItem="hoQ-CC-Wmy" firstAttribute="centerX" secondItem="wco-rZ-p2q" secondAttribute="centerX" id="JaP-Jy-OF9"/>
+                <constraint firstItem="USt-lY-K7x" firstAttribute="width" secondItem="inh-cd-Hp0" secondAttribute="width" id="V9i-ax-LJP"/>
+                <constraint firstItem="hoQ-CC-Wmy" firstAttribute="height" secondItem="USt-lY-K7x" secondAttribute="height" id="aWz-n9-4bV"/>
+                <constraint firstItem="USt-lY-K7x" firstAttribute="height" secondItem="inh-cd-Hp0" secondAttribute="height" id="do2-g2-mLB"/>
+                <constraint firstItem="wco-rZ-p2q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fma-fK-Rwr"/>
+                <constraint firstAttribute="bottom" secondItem="wco-rZ-p2q" secondAttribute="bottom" id="jy5-se-8fR"/>
+                <constraint firstItem="inh-cd-Hp0" firstAttribute="centerX" secondItem="wco-rZ-p2q" secondAttribute="centerX" id="p0O-6o-UX9"/>
+                <constraint firstItem="USt-lY-K7x" firstAttribute="top" secondItem="inh-cd-Hp0" secondAttribute="bottom" constant="20" id="pR3-1Y-cgi"/>
+                <constraint firstAttribute="trailing" secondItem="wco-rZ-p2q" secondAttribute="trailing" id="qti-wa-n3a"/>
+                <constraint firstItem="inh-cd-Hp0" firstAttribute="centerY" secondItem="wco-rZ-p2q" secondAttribute="centerY" id="tOC-8P-f0X"/>
+            </constraints>
+            <point key="canvasLocation" x="-224" y="-163"/>
+        </view>
+    </objects>
+</document>

@@ -1,16 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PostIdeaViewController">
             <connections>
+                <outlet property="basicScrollView" destination="4Hw-bu-Uc9" id="JyS-e9-TJ3"/>
+                <outlet property="containerView" destination="Xby-6u-4yl" id="bqq-Ja-Zig"/>
                 <outlet property="departmentTextField" destination="psd-pb-onK" id="QEA-Tb-Xtk"/>
                 <outlet property="ideaTextView" destination="ZPw-i8-k6e" id="s4a-Ba-pLP"/>
                 <outlet property="nameTextField" destination="4pd-DY-HlY" id="63h-Uz-8YA"/>
@@ -22,36 +24,33 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Hw-bu-Uc9">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Hw-bu-Uc9" userLabel="basicScrollView">
                     <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                     <subviews>
-                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xby-6u-4yl">
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xby-6u-4yl" userLabel="containerView">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提 报 人" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1d-oo-BAn">
                                     <rect key="frame" x="77" y="40" width="61" height="30"/>
-                                    <color key="backgroundColor" red="1" green="0.88217412279999996" blue="0.83236996959999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="所属单位" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kFU-4k-AzH">
                                     <rect key="frame" x="68" y="110" width="70" height="30"/>
-                                    <color key="backgroundColor" red="1" green="0.88217412279999996" blue="0.83236996959999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="金点子的内容" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BE0-TP-Y65">
                                     <rect key="frame" x="136" y="180" width="104" height="21"/>
-                                    <color key="backgroundColor" red="1" green="0.88217412279999996" blue="0.83236996959999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4pd-DY-HlY" userLabel="nameTextField">
                                     <rect key="frame" x="178" y="40" width="150" height="30"/>
-                                    <color key="backgroundColor" red="1" green="0.88217412279999996" blue="0.83236996959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="150" id="MrL-lm-8Ze"/>
                                     </constraints>
@@ -61,35 +60,44 @@
                                 </textField>
                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="psd-pb-onK" userLabel="departmentTextField">
                                     <rect key="frame" x="178" y="110" width="150" height="30"/>
-                                    <color key="backgroundColor" red="1" green="0.88217412279999996" blue="0.83236996959999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <nil key="textColor"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits"/>
                                 </textField>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l7V-E1-Plz" userLabel="postIdea">
                                     <rect key="frame" x="58" y="441" width="260" height="40"/>
-                                    <color key="backgroundColor" red="1" green="0.88217412279999996" blue="0.83236996959999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="40" id="A2D-tn-XEI"/>
                                         <constraint firstAttribute="width" constant="260" id="AG4-zX-E1X"/>
                                     </constraints>
                                     <state key="normal">
-                                        <string key="title">提交金点子</string>
+                                        <string key="title">提交金点子
+</string>
                                         <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="postIdea:" destination="-1" eventType="touchUpInside" id="Qmr-xZ-ReK"/>
                                     </connections>
                                 </button>
                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZPw-i8-k6e" userLabel="ideaTextView">
                                     <rect key="frame" x="58" y="241" width="260" height="130"/>
-                                    <color key="backgroundColor" red="1" green="0.88217412279999996" blue="0.83236996959999998" alpha="1" colorSpace="calibratedRGB"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="130" id="ASk-2b-f51"/>
                                         <constraint firstAttribute="width" constant="260" id="xBc-Sy-vA4"/>
                                     </constraints>
                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                                            <integer key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
                                 </textView>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -132,7 +140,7 @@
                 <constraint firstAttribute="bottom" secondItem="4Hw-bu-Uc9" secondAttribute="bottom" id="j4n-2o-T2L"/>
                 <constraint firstAttribute="trailing" secondItem="4Hw-bu-Uc9" secondAttribute="trailing" id="nLj-oA-DnN"/>
             </constraints>
-            <point key="canvasLocation" x="-255" y="32"/>
+            <point key="canvasLocation" x="113" y="-4"/>
         </view>
     </objects>
 </document>

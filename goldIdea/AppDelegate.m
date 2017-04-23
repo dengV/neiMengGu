@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "MainPageViewController.h"
+#import "WisdomViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,9 +16,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    UINavigationController * mainNaviCtrl = [[UINavigationController alloc ] initWithRootViewController: [[MainPageViewController alloc ] initWithNibName: @"MainPageViewController" bundle: nil ] ];
+    UINavigationController * mainNaviCtrl = [[UINavigationController alloc ] initWithRootViewController: [[WisdomViewController alloc ] initWithNibName: @"WisdomViewController" bundle: nil ] ];
     self.window.rootViewController = mainNaviCtrl;
-    
     
     [self.window makeKeyAndVisible ];
     return YES;
