@@ -49,6 +49,7 @@
 		92FFC5A91EACDFBD002E46D1 /* ic_main_item_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFC59D1EACDFBD002E46D1 /* ic_main_item_10.png */; };
 		92FFC5AA1EACDFBD002E46D1 /* ic_main_item_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFC59E1EACDFBD002E46D1 /* ic_main_item_11.png */; };
 		92FFC5AB1EACDFBD002E46D1 /* ic_main_item_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 92FFC59F1EACDFBD002E46D1 /* ic_main_item_12.png */; };
+		CDA2C255C2E48780D06CE0AA /* libPods-goldIdea.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AAF197FA2AD271762536DC9 /* libPods-goldIdea.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		23C065F31EA3AA270028F578 /* SecondBoolIdeaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondBoolIdeaViewController.h; sourceTree = "<group>"; };
 		23C065F41EA3AA270028F578 /* SecondBoolIdeaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondBoolIdeaViewController.m; sourceTree = "<group>"; };
 		23C065F51EA3AA270028F578 /* SecondBoolIdeaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondBoolIdeaViewController.xib; sourceTree = "<group>"; };
+		3CEFC649CF059E2D85A21BD2 /* Pods-goldIdea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goldIdea.debug.xcconfig"; path = "Pods/Target Support Files/Pods-goldIdea/Pods-goldIdea.debug.xcconfig"; sourceTree = "<group>"; };
 		92FFC57C1EACD3E9002E46D1 /* WisdomDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WisdomDetailViewController.h; sourceTree = "<group>"; };
 		92FFC57D1EACD3E9002E46D1 /* WisdomDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WisdomDetailViewController.m; sourceTree = "<group>"; };
 		92FFC57E1EACD3E9002E46D1 /* NeiMeng.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeiMeng.pch; sourceTree = "<group>"; };
@@ -134,6 +136,8 @@
 		92FFC59D1EACDFBD002E46D1 /* ic_main_item_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_main_item_10.png; sourceTree = "<group>"; };
 		92FFC59E1EACDFBD002E46D1 /* ic_main_item_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_main_item_11.png; sourceTree = "<group>"; };
 		92FFC59F1EACDFBD002E46D1 /* ic_main_item_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_main_item_12.png; sourceTree = "<group>"; };
+		9AAF197FA2AD271762536DC9 /* libPods-goldIdea.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-goldIdea.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E90C3B3882396568A8CBE8 /* Pods-goldIdea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-goldIdea.release.xcconfig"; path = "Pods/Target Support Files/Pods-goldIdea/Pods-goldIdea.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +145,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA2C255C2E48780D06CE0AA /* libPods-goldIdea.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +173,8 @@
 				23C065A31EA3916B0028F578 /* goldIdeaTests */,
 				23C065AE1EA3916B0028F578 /* goldIdeaUITests */,
 				23C065881EA391680028F578 /* Products */,
+				C9C64FD6E8CBC5BBBF2C1F0E /* Pods */,
+				889C0AAE0A59E34188A3B109 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -312,6 +319,14 @@
 			path = MyIdeaCell;
 			sourceTree = "<group>";
 		};
+		889C0AAE0A59E34188A3B109 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AAF197FA2AD271762536DC9 /* libPods-goldIdea.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		92FFC57A1EACD3E9002E46D1 /* WisdomClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -376,6 +391,15 @@
 			path = WiseCollection;
 			sourceTree = "<group>";
 		};
+		C9C64FD6E8CBC5BBBF2C1F0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CEFC649CF059E2D85A21BD2 /* Pods-goldIdea.debug.xcconfig */,
+				F1E90C3B3882396568A8CBE8 /* Pods-goldIdea.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -383,9 +407,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23C065B41EA3916B0028F578 /* Build configuration list for PBXNativeTarget "goldIdea" */;
 			buildPhases = (
+				622B062856802BC21EFAB1A1 /* [CP] Check Pods Manifest.lock */,
 				23C065831EA391680028F578 /* Sources */,
 				23C065841EA391680028F578 /* Frameworks */,
 				23C065851EA391680028F578 /* Resources */,
+				F3AA045111DC16D602E6D3DA /* [CP] Embed Pods Frameworks */,
+				196C07237CB579A7FD071681 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -527,6 +554,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		196C07237CB579A7FD071681 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goldIdea/Pods-goldIdea-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		622B062856802BC21EFAB1A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F3AA045111DC16D602E6D3DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-goldIdea/Pods-goldIdea-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23C065831EA391680028F578 /* Sources */ = {
@@ -693,6 +768,7 @@
 		};
 		23C065B51EA3916B0028F578 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEFC649CF059E2D85A21BD2 /* Pods-goldIdea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WQNKHF5597;
@@ -706,6 +782,7 @@
 		};
 		23C065B61EA3916B0028F578 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1E90C3B3882396568A8CBE8 /* Pods-goldIdea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = WQNKHF5597;
